@@ -10,7 +10,7 @@ const GetStarted = () => {
                             Get Started Easily
                         </h1>
                         <p className="mt-8 text-xl w-[80%]">
-                            Tour the platform, read a few deep dives, or kickstart your work management journey with the right template.
+                            Tour  the platform, read a few deep dives, or kickstart your work management journey with the right template.
                         </p>
                     </div>
                     <div className="flex flex-1/2">
@@ -29,7 +29,7 @@ const GetStarted = () => {
                                         />
                                     </div>
                                 </div>
-                                <div className=" flex flex-col lg:flex-row gap-y-3 w-full justify-center lg:items-center">
+                                <div className=" flex flex-col leading-0 lg:flex-row gap-y-3 w-full justify-center lg:items-center">
                                     <label htmlFor="" className="lg:w-[30%]">Last Name*</label>
                                     <div className="rounded-[10px] border border-[rgba(0,0,0,0.14)] lg:w-[70%]">
                                         <input
