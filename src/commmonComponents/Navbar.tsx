@@ -1,5 +1,8 @@
-import React, { useState } from 'react'
 
+
+'use client';
+
+import React, { useState } from 'react'
 import logo from "../../public/assets/logo.png"
 import Image from 'next/image'
 import Link from 'next/link';
@@ -20,7 +23,7 @@ const Navbar = () => {
                         <Link href={"/"} >Home</Link>
                         <Link href={"/blog"} >Blog</Link>
                         <Link href={"/pricing"} >Pricing</Link>
-                        <Link href={"/"} >Contact Us</Link>
+                        <Link href={"/contactus"} >Contact Us</Link>
 
                     </div>
                     <div className="button hidden lg:flex flex-1 justify-end gap-x-6" >
@@ -45,7 +48,7 @@ const Navbar = () => {
                         <Link className='hover:text-blue-500' href={"/landing"}>Home</Link>
                         <Link className='hover:text-blue-500' href={"/pricing"}>Blog</Link>
                         <Link className='hover:text-blue-500' href={"/pricing"}>Pricing</Link>
-                        <Link className='hover:text-blue-500' href={"/"}>Contact Us</Link>
+                        <Link className='hover:text-blue-500' href={"/contactus"}>Contact Us</Link>
                     </div>
                     <div className="button flex flex-col justify-start gap-y-4 my-4">
                         <button className="button bg-black text-white font-medium py-2 px-4 rounded-[4px] hover:bg-[#F06A6A] duration-500 hover:text-black">Login</button>
