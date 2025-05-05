@@ -8,8 +8,9 @@ const Explore = () => {
                         Explore what @website can do for your teams
                     </h1>
                     <p className="text-xl lg:text-2xl lg:w-[85%] 2xl:w-[1050px] ">
-                        Start using @website to simplify collaboration across teams, and see your team's entire workstream in one place for better results.
+                        Start using @website to simplify collaboration across teams, and see your team&rsquo;s entire workstream in one place for better results.
                     </p>
+
                     <button className=" py-3 px-4 bg-white text-black rounded-lg">
                         Get Started
                     </button>

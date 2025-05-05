@@ -15,14 +15,7 @@ import LogoBanner from "@/commmonComponents/LogoBanner"
 const Landing = () => {
 
 
-    const logos = [
-        googly,
-        spoty,
-        coca,
-        pixelfedy,
-        facebook,
-        weather,
-    ];
+ 
 
 
 
