@@ -173,15 +173,15 @@ const Landing = () => {
 
             </section>
 
-            <section className='px-4 lg:px-20 py-[98px]'>
+            <section className='px-4 lg:px-20 py-16 lg:py-[98px]'>
                 <div>
                     <div className='lg:w-[749px]'>
-                        <h1 className='font-bold text-4xl leading-tight 2xl:text-5xl'>
+                        <h1 className='font-bold text-2xl lg:text-4xl leading-tight 2xl:text-5xl'>
                             See how our solutions keeps eLearning engaging across use cases
                         </h1>
                     </div>
 
-                    <div className='grid grid-cols-1 lg:grid-cols-4 p-5 gap-5 mt-[55px]'>
+                    <div className='grid grid-cols-1 lg:grid-cols-4  gap-5 mt-[55px]'>
                         {[...Array(8)].map((_, index) => (
                             <div
                                 key={index}

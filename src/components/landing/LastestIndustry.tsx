@@ -2,7 +2,7 @@
 const LastestIndustry = () => {
     return (
         <>
-            <section className="px-4 lg:px-16 mt-[90px]">
+            <section className="px-4 lg:px-16 mt-[90px] mb-20">
                 <div>
                     <h1 className="text-3xl lg:text-[48px] font-medium lg:w-[520px]">
                         Read Latest Industry Insights

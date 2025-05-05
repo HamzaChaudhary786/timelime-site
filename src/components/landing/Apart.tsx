@@ -27,7 +27,7 @@ const Apart = () => {
     return (
         <section className=" py-[80px] bg-[#C9F3FF] px-4 lg:px-10" >
 
-            <h1 className=" font-semibold lg:font-bold lg:text-2xl xl:text-3xl 2xl:text-[48px] text-[#10008A] mb-10">
+            <h1 className=" font-semibold lg:font-bold text-2xl xl:text-3xl 2xl:text-[48px] text-[#10008A] mb-10">
                 What sets us apart?
             </h1>
 

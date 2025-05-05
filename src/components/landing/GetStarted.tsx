@@ -6,7 +6,7 @@ const GetStarted = () => {
                 <div className="flex flex-col lg:flex-row gap-y-8">
 
                     <div className="flex flex-col flex-1/2 text-[#000000]">
-                        <h1 className=" text-[40px] ">
+                        <h1 className=" text-2xl lg:text-[40px] ">
                             Get Started Easily
                         </h1>
                         <p className="mt-8 text-xl w-[80%]">

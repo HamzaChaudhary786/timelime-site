@@ -14,11 +14,11 @@ const Navbar = () => {
             <nav className='relative bg-[#630404] shadow px-4 md:px-6 lg:px-10'>
                 <div className='flex justify-around items-center px-3 lg:px-0'>
                     <div className="logo flex flex-1 ">
-                        <Image src={logo} alt="Logo" className='w-28  h-24' />
+                        <Image src={logo} alt="Logo" className='w-44  h-24' />
                     </div>
                     <div className="links lg:flex flex-2 justify-center gap-6 text-[#B6B6B7] font-medium hidden ">
                         <Link href={"/"} >Home</Link>
-                        <Link href={"/"} >Blog</Link>
+                        <Link href={"/blog"} >Blog</Link>
                         <Link href={"/pricing"} >Pricing</Link>
                         <Link href={"/"} >Contact Us</Link>
 
