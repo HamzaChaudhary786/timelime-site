@@ -21,6 +21,7 @@ const Navbar = () => {
                     </div>
                     <div className="links lg:flex flex-2 justify-center gap-6 text-[#B6B6B7] font-medium hidden ">
                         <Link href={"/"} >Home</Link>
+                        <Link href={"/aboutus"} >About Us</Link>
                         <Link href={"/blog"} >Blog</Link>
                         <Link href={"/pricing"} >Pricing</Link>
                         <Link href={"/contactus"} >Contact Us</Link>
@@ -46,6 +47,7 @@ const Navbar = () => {
                 >
                     <div className="links flex flex-col gap-3 text-[#B6B6B7] font-medium">
                         <Link className='hover:text-blue-500' href={"/landing"}>Home</Link>
+                        <Link className='hover:text-blue-500' href={"/aboutus"} >About Us</Link>
                         <Link className='hover:text-blue-500' href={"/pricing"}>Blog</Link>
                         <Link className='hover:text-blue-500' href={"/pricing"}>Pricing</Link>
                         <Link className='hover:text-blue-500' href={"/contactus"}>Contact Us</Link>

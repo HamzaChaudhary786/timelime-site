@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import google from "../../../public/assets/google.png"
 import trustpilot from "../../../public/assets/trustpilot.png"

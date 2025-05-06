@@ -1,8 +1,11 @@
 'use client';
 
+
 import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 interface CustomerStory {
+    id: number;
     title: string;
     image: string;
     logo: string;
@@ -17,6 +20,7 @@ interface CustomerStory {
 const CustomerStories = () => {
     const customerStories: CustomerStory[] = [
         {
+            id: 1,
             title: 'Customer 1',
             image: '',
             logo: '',
@@ -28,6 +32,7 @@ const CustomerStories = () => {
             region: 'Karachi',
         },
         {
+            id: 2,
             title: 'Customer 2',
             image: '',
             logo: '',
@@ -39,6 +44,7 @@ const CustomerStories = () => {
             region: 'Lahore',
         },
         {
+            id: 3,
             title: 'Customer 3',
             image: '',
             logo: '',
@@ -51,12 +57,23 @@ const CustomerStories = () => {
         },
     ];
 
+
     const [filters, setFilters] = useState({
         function: '',
         industry: '',
         companySize: '',
         region: '',
     });
+
+    const router = useRouter();
+    
+    const handleNavigate = (story: CustomerStory) => {
+        sessionStorage.setItem('selectedStory', JSON.stringify(story));
+        router.push(`/casestudy/${story.id}`);
+      };
+      
+
+
 
     const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
         const { name, value } = e.target;
@@ -140,7 +157,7 @@ const CustomerStories = () => {
                                 <strong>Size:</strong> {story.companySize} <br />
                                 <strong>Region:</strong> {story.region}
                             </div>
-                            <button className="mt-2 inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">
+                            <button className="mt-2 inline-block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 cursor-pointer" onClick={() => handleNavigate(story)}>
                                 {story.button}
                             </button>
                         </div>

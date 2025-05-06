@@ -1,3 +1,4 @@
+"use client"
 
 import Image from "next/image"
 import image from "../../../public/assets/image1.png"

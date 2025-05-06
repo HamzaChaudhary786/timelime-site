@@ -1,3 +1,6 @@
+"use client"
+
+
 import Image from "next/image"
 import googly from "../../../public/assets/googly.svg"
 import spoty from "../../../public/assets/spotify.svg"

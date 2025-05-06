@@ -1,5 +1,8 @@
-import React, { useState } from 'react';
 
+"use client"
+
+
+import React, { useState } from 'react';
 
 const TopCompanies: React.FC = () => {
   // Dummy data for companies

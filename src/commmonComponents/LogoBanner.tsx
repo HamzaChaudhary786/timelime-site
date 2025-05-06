@@ -1,4 +1,8 @@
 
+"use client"
+
+
+
 import Image from "next/image"
 import spotify from "../../public/assets/spotify.png"
 import elite from "../../public/assets/elite.png"
