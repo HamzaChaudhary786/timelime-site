@@ -8,7 +8,7 @@ const Landing = () => {
     return (
 
         <>
-            <section className="bg-[#151B26] h-[80vh] text-white px-4 lg:px-10 pt-20 pb-20">
+            <section className="bg-[#151B26] h-[80vh] xl:h-[65vh] 2xl:h-[40vh] text-white px-4 lg:px-10 pt-20 pb-20">
                 <div className="flex flex-col gap-y-4 justify-center items-center text-center ">
                     <h2 className='text-2xl font-semibold text-[#7D7B7B]'>About us</h2>
                     <h1 className="text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl lg:w-[60%] 2xl:w-[850px]">

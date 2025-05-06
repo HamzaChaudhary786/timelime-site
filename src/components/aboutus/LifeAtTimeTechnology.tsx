@@ -33,7 +33,7 @@ const LifeAtTimeTechnology = () => {
 
                         <div className="p-4 lg:p-8 bg-white shadow-[0px_4px_4px_5px_rgba(0,0,0,0.29)] ">
 
-                            <div className="flex flex-col gap-y-6 lg:justify-between items-center">
+                            <div className="flex flex-col lg:flex-row gap-y-6 lg:justify-between items-center">
                                 <p className="text-xl lg:text-2xl">
                                     Let&rsquo;s do great things together. Join our team.
                                 </p>
